@@ -1,0 +1,22 @@
+h2
+{
+	font-size:24pt;
+}
+
+.toolbar_control
+{
+	font-size:14pt;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+input, option, select, span
+{
+	font-size:14pt;
+}
+
+#controls_toolbar
+{
+	margin-top:10px;
+	margin-bottom:20px;
+}

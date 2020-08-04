@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 17, 2017, 3:00:44 PM
+    Author     : clotifoth
+*/
+
+* {
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2A2A2A;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+table {
+    font-size: 0.5em;
+    transition: all 0.2s ease-in-out;
+    color: #595959;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 90%;
+}
+
+table:hover {
+    font-size: 1.3em;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 40%;
+    word-wrap: break-word;
+    font-family: monospace;
+}
+
+tr:hover {
+    font-size: 1.45em;
+    font-weight: bold;
+    color: #000;
+}
+
+.value {
+    text-align: right;
+}
+
+
+#headers {
+    color: steelblue;
+}
+
+#session {
+    color: royalblue;
+}
+
+#servletContext {
+    color: blueviolet;
+}
+
+#pageScope {
+    color: deeppink;
+}
+
+#requestScope {
+    color: crimson;
+}
+
+#bean {
+    color: orangered;
+}

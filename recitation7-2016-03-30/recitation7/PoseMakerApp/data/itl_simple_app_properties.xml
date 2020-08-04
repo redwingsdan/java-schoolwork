@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the SimpleAppFramework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="Posa Creatore"></property>
+	<property name="APP_LOGO"	    value="PoseMakerLogo.png"></property>
+	<property name="APP_PATH_CSS"	    value="css/"></property>
+	<property name="APP_CSS"	    value="pm_style.css"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property> 
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="Creare una nuova posa"></property>
+        <property name="LOAD_TOOLTIP"		value="Caricare una posa esistente"></property>
+        <property name="SAVE_TOOLTIP"		value="Salva questo Pose"></property>
+        <property name="EXIT_TOOLTIP"		value="Uscia Application"></property>
+        
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="Uscita"></property>
+
+        <property name="NEW_ERROR_MESSAGE"              value="Si è verificato un errore durante la creazione Nuovo lavoro"></property>
+        <property name="NEW_ERROR_TITLE"		value="Nuovo errore lavoro"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="È verificato un errore di lavoro di carico."></property>
+        <property name="LOAD_ERROR_TITLE"		value="Errore carico di lavoro"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="Si è verificato un errore durante il salvataggio di lavoro."></property>
+        <property name="SAVE_ERROR_TITLE"		value="Errore Salva lavoro"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="Si è verificato un errore durante il caricamento di un file delle proprietà."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Proprietà caricamento del file Errore"></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="Nuovo lavoro pronto per la modifica"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="Nuovo lavoro creatore"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="File Caricamento completato e pronto per l'editing"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="Caricamento Completato"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="Salvataggio del file Completato"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="Salvataggio completato"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Volete salvare il lavoro non salvato prima?"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="Salvare il lavoro non salvato?"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="Nuova opera creata ma non ancora salvato"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="Il lavoro è stato caricato"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="Il lavoro è stato salvato"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Vuoi salvare il lavoro non salvato prima"></property>
+	<property name="SAVE_WORK_TITLE"		value="Salvare il lavoro"></property>
+	<property name="LOAD_WORK_TITLE"		value="Selezionare file di lavoro da caricare"></property>
+	<property name="WORK_FILE_EXT"			value="pm"></property>
+	<property name="WORK_FILE_EXT_DESC"		value="Posa Creatore Fili"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>

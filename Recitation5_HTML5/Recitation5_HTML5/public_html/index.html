@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./css/KiltPatternGenerator.css" />
+		<script src="./js/KiltPatternGenerator.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<h2>The Kilt Pattern Generator</h2>
+		<div id="controls_toolbar">
+			<span class="toolbar_control"><strong>Shapes: </strong><span id="counter"></span></span>
+			<span class="toolbar_control"><input type="button" value="Clear" onclick="clearCanvas()" /></span>
+			<span class="toolbar_control"><select id="shapeSelect">
+				<option value="Circle" selected="selected">Circle</option>
+				<option value="Square">Square</option>
+			</select></span>
+			<span class="toolbar_control"><input type="checkbox" id="filled_checkbox" name="filled" value="Filled" /><strong>Filled</strong></span>
+			<span class="toolbar_control"><input type="button" value="Stop" onclick="stop()" /></span>
+			<span class="toolbar_control"><input type="button" value="Start" onclick="start()" /></span>
+			<span class="toolbar_control"><input type="button" value="Slower" onclick="slower()" /></span>
+			<span class="toolbar_control"><input type="button" value="Faster" onclick="faster()" /></span>
+			<span class="toolbar_control"><strong>FPS: </strong> <span id="fps"></span></span>
+			<span class="toolbar_control"><select id="line_thickness">
+				<option value="1" selected="selected">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select></span>
+		</div>
+		<canvas id="myCanvas" width="1280" height="720" style="border:1px solid #000000;">
+		</canvas>
+		<script>
+			init();
+		</script>
+	</body>
+</html>
